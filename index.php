@@ -1,39 +1,23 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-
-<html>
-
-<title>Welcome</title>
-
+<!DOCTYPE HTML>
+<html lang="en">
 <head>
-
-<style type="text/css" media="all">@import "master.css";</style>
-
+	<meta charset="UTF-8">
+	<link rel="shortcut icon" href="./favicon.ico">
+	<title>2945</title>
 </head>
-
 <body>
-	<div id="navigation">
-		<a href="index.php"><img id="hometab" src="hometab.JPG" alt="Home" /></a>
-		<a href="index.php"><img id="hometab" src="hometab.JPG" alt="Home" /></a>
-		<a href="index.php"><img id="hometab" src="hometab.JPG" alt="Home" /></a>
-		<a href="index.php"><img id="hometab" src="hometab.JPG" alt="Home" /></a>
-	</div>	
-
-		<div id="header">
-			<div id="logo">
-			<h4>Logo image goes here.</h4>
-			</div>
-		
-			<div id="firstlogo">
-			<a href="http://www.usfirst.org" target="_blank"><img id="firstlogoimg" src="firstlogo.png" alt ="FIRST Robotics Logo"  /></a>
-			</div>
-		</div>
-
-	<div id="container">
-
-		
-	</div>
+    <div id="nav">
+    	<li class="nav">Home</li>
+    	<li class="nav">Our Team</li>
+    	<li class="nav">Events</li>
+    	<li class="nav">Sponsors</li>
+    	<li class="nav">Resources</li>
+    	<li class="nav">Calendar</li>
+    	<li class="nav">Contact</li>
+    	<li class="nav"></li>
+    </div>
+    <div id="outside-links">
+    </div>
+	
 </body>
-
 </html>
-
