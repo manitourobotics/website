@@ -1,76 +1,116 @@
-/*Master.css document for styling the website.*/
-
-/*Header*/
-
-body
+body 
 {
-	background-color: black;
-	margin: 0;
-	padding: 0;
+	background-color: #F0F0F0;
 }
-
-#container
+.page
 {
-	width: 100%;
-	height: 800px;
-	overflow: auto;
-	background-color: gray;
+	position:absolute;
+	top:0px;
+	bottom:0px;
+	right:0px;
+	left:0px;
+	overflow:hidden;
 }
 #header
 {
-	width: 100%;
-	height: 200px;
-	color: red;
+	background-color:#000000;
+	height:auto;
+	position:relative;
+	top:0px;
+	left:0px;
+	right:0px;
 }
-
-#logo
+#header_name
 {
-	height: 200px;
-	padding: 5px;
-	float: left;
+	color: #FFFFFF;
+	display:inline-block;
+	padding-left:15px;
 }
-
-#navigation
+div#dropdown
 {
-	position: absolute;
-	right: 0px;
-	top: 0px;
-	padding: 0px;
-	float: right;
+	background-color:#000000;
+	overflow:visible;
+	z-index: 2;
+	display:inline;
+} 
+#header_navagation
+{
+	padding:8px;
+	padding-right:10px;
+	float:right;
+	display:inline;
 }
-
-/*ul
+#header_navagation ul 
 {
-	list-style-type:none;
-	margin-right: 0px;
-	margin-top: 0px;
-	padding-top: 0px;
-	padding-right: 0px;
-	overflow: hidden;
+  	font-family: Arial, Verdana;
+  	font-size: 18px;
+  	margin: 0;
+  	padding: 0;
+  	list-style: none;
+}
+#header_navagation ul li 
+{
+  	position: relative;
+  	float: left;
+  	margin-left: 4px;
+}
+#header_navagation li ul 
+{ 
+	display: none;
+}
+#header_navagation ul li a 
+{
+  	display: block;
+  	text-decoration: none;
+  	color: #ffffff;
+  	margin-left: 5px;
+  	white-space: nowrap;
+}
+#header_navagation ul li a:hover 
+{ 
+	border-bottom: 1px solid #F00000;
+}
+#header_navagation li:hover ul 
+{
+  	display: block;
+  	position: absolute;
+}
+#header_navagation li:hover li 
+{
+  	font-size: 18px;
+}
+#header_navagation li:hover li a:hover 
+{ 
+	background: #000000;
 	position: relative;
 }
-
-li
+#sidebar
 {
-	float: right;
-		
+	float:right;
+	width:30%;
+	height:auto;
+	overflow:hidden;
+}
+#sidebar p
+{
+	word-wrap:break-word;
+}
+#content
+{
+	float:left;
+	color:#000000;
+	width:65%;
+}
+#content a
+{
+	color:#000000;
+}
+#line
+{
+	border-bottom:1px solid #A9A9A9;
+}
+h2#content_import
+{
+	padding-left:15px;
 }
 
-#navigation a:link,a:visited
-{
-	display: block;
-	width: 125px;
-	font-weight: bold;
-	color: #FFFFFF;
-	background-color: #000000;
-	text-align: center;
-	padding: 4px;
-	text-decoration: none;
-	text-transform: uppercase;
-}
-
-#navigation a:hover,a:active
-{
-	background-color: #DAA520;
-}
-*/
